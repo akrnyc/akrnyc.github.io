@@ -46,6 +46,10 @@
     font-family: Courier New, monospace;
   }
   
+  .sidenav img:hover {
+    opacity: 0.5;
+  }
+
   /* Style the content */
   .content {
     margin-left: 200px;
