@@ -26,7 +26,7 @@
     background-color: #111;
     overflow-x: hidden;
     padding-top: 30px;
-    font-family: "Lucida Bright", monospace;
+    font-family: Lucida Bright, monospace;
   }
   
   /* Side navigation links */
@@ -35,7 +35,7 @@
     padding: 16px;
     text-decoration: none;
     display: block;
-    font-family: "Lucida Bright", monospace;
+    font-family: Lucida Bright, monospace;
   }
   
   /* Change color on hover */
@@ -43,7 +43,7 @@
     background-color: #ddd;
     color: black;
     text-decoration: none;
-    font-family: "Lucida Bright", monospace;
+    font-family: Lucida Bright, monospace;
   }
   
   /* Style the content */
