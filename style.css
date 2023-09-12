@@ -6,7 +6,8 @@
     margin: 0;
     font-family: Helvetica, Verdana, sans-serif;
   }
-
+  
+  /* Style Headers */
   h1 {
     font-family: Andale Mono, Courier New, monospace;
   }
@@ -18,10 +19,10 @@
   h3 {
     font-family: Verdana, sans-serif;
     font-size: medium;
-    padding-bottom: 10px;
+    padding: 0px;
   }
     
-  /* Style the side navigation */
+  /* Style side navigation */
   .sidenav {
     height: 100%;
     width: 200px;
@@ -58,13 +59,13 @@
     font-family: Courier New, monospace;
   }
 
-  /* Style the content */
+  /* Style content */
   .content {
     margin-left: 200px;
     padding-left: 20px;
   }
 
-  /* Style IFrame*/
+  /* Style IFrame */
   .frame {
     position: relative;
     overflow: hidden;
@@ -82,7 +83,33 @@
     height: 100%;
   }
 
+  /* Style Accordian Navigation */
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    }
 
+    .active, .accordion:hover {
+    background-color: #ccc;
+    }
+
+    .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    }
+
+  /* Screen Compatibility */
   @media only screen and (max-width: 620px) {
     /* For mobile phones: */
     .menu, .main, .right {

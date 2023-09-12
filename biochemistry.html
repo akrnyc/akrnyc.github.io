@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+        <title>a k r  n y c</title>
+    </head>
+    <body>
+        <h2>Publications</h2>
+        <p>Click on the buttons to open the collapsible content.</p>
+
+        <button class="accordion">Mycobacterium tuberculosis releases an antacid that remodels phagosomes</button>
+        <div class="panel">
+        <p>American Chemical Society Chemical Biology, 2020. <br>
+        Holzheimer M, Reijneveld JF, <b>Ramnarine AK</b>, Misiakos G, Young DC, Ishikawa E, Cheng TY, Yamasaki S, Moody DB, Van Rhijn I, Minnaard AJ.
+        <br>
+        <a href="https://doi.org/10.1021/acschembio.0c00030" target="_blank">DOI: 10.1021/acschembio.0c00030</a>
+        </p>
+        </div>
+
+        <button class="accordion">Asymmetric Total Synthesis of Mycobacterial Diacyl Trehaloses Demonstrates a Role for Lipid Structure in Immunogenicity.</button>
+        <div class="panel">
+        <p>Nature Chemical Biology, 2019. <br>
+        Buter J, Cheng TY, Ghanem M, Grootemaat AE, Raman S, Feng X, Plantijn AR, Ennis T, Wang J, Cotton RN, Layre E, <b>Ramnarine AK</b>, Mayfield JA, Young DC, Jezek Martinot A, Siddiqi N, Wakabayashi S, Botella H, Calderon R, Murray M, Ehrt S, Snider BB, Reed MB, Oldfield E, Tan S, Rubin EJ, Behr MA, van der Wel NN, Minnaard AJ, Moody DB.
+        <br><br>
+        My <a href="https://www.nature.com/nchembio/volumes/15/issues/9" target="_blank">original graphic design</a> was chosen as the September 2019 front cover for Nature Chemical Biology, representing this publication.
+        <br>
+        <a href="https://doi.org/10.1038/s41589-019-0336-0" target="_blank">DOI: 10.1038/s41589-019-0336-0</a>
+        <br><br>
+        <a href="https://www.nature.com/articles/s41589-019-0347-x" target="_blank">Nature Chemical Biology</a> <br>
+        <a href="https://www.nature.com/articles/d41586-019-02482-y" target="_blank">Nature</a> <br>
+        <a href="https://www.eurekalert.org/news-releases/866960" target="_blank">American Association for the Advancement of Science</a> <br>
+        <a href="https://cen.acs.org/biological-chemistry/infectious-disease/Tuberculosis-causing-bacterium-produces-antacid/97/i33" target="_blank">Chemical & Engineering News</a> <br>
+        <a href="https://bwhclinicalandresearchnews.org/2019/09/06/tackling-tuberculosis/" target="_blank">Brigham Clinical & Research News</a>
+        </p>
+        </div>
+
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+        });
+        }
+        </script>
+    </body>
+</html>
