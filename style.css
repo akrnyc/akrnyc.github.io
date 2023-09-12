@@ -125,6 +125,56 @@
     color: #444;
     }
 
+  /* Style Image Gallery */
+  /* The grid: three equal columns that float next to each other */
+  .gallerycolumn {
+    float: left;
+    width: 33%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .gallerycolumn img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .gallerycolumn img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .galleryrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .gallerycontainer {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #galleryimgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .galleryclosebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
   /* Screen Compatibility */
   @media only screen and (max-width: 620px) {
     /* For mobile phones: */
