@@ -47,14 +47,14 @@
   
   /* Change color on hover */
   .sidenavimg {
-    background-color: black;
+    background-color: #111;
     text-decoration: none;
     padding: 0px;
   }
 
   .sidenav img:hover {
     opacity: 0.5;
-    background-color: black;
+    background-color: #111;
     text-decoration: none;
   }
 
