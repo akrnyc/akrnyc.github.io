@@ -137,6 +137,7 @@
   .gallerycolumn img {
     opacity: 0.8; 
     cursor: pointer; 
+    width: 100%;
   }
   
   .gallerycolumn img:hover {
