@@ -46,6 +46,12 @@
   }
   
   /* Change color on hover */
+  .sidenavimg {
+    background-color: black;
+    text-decoration: none;
+    padding: 0px;
+  }
+
   .sidenav img:hover {
     opacity: 0.5;
     background-color: black;
