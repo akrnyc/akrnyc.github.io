@@ -48,6 +48,7 @@
   
   .sidenav img:hover {
     opacity: 0.5;
+    background-color: black;
   }
 
   /* Style the content */
