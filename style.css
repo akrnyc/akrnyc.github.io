@@ -48,6 +48,11 @@
     padding-left: 20px;
   }
 
+  /* Style IFrame*/
+  .frame {
+    background-color: #6892a7;
+  }
+
   @media only screen and (max-width: 620px) {
     /* For mobile phones: */
     .menu, .main, .right {
