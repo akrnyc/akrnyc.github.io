@@ -26,7 +26,7 @@
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
-    font-family: Courier, monospace;
+    font-family: Courier New, monospace;
   }
   
   /* Side navigation links */
@@ -35,7 +35,7 @@
     padding: 16px;
     text-decoration: none;
     display: block;
-    font-family: Courier, monospace;
+    font-family: Courier New, monospace;
   }
   
   /* Change color on hover */
@@ -43,7 +43,7 @@
     background-color: #ddd;
     color: black;
     text-decoration: none;
-    font-family: Courier, monospace;
+    font-family: Courier New, monospace;
   }
   
   /* Style the content */
