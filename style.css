@@ -115,6 +115,16 @@
     transition: max-height 0.2s ease-out;
     }
 
+    .panel a {
+    text-decoration: none;
+    color: teal;
+    }
+
+    .panel a:hover {
+    text-decoration: dotted teal;
+    color: #444;
+    }
+
   /* Screen Compatibility */
   @media only screen and (max-width: 620px) {
     /* For mobile phones: */
