@@ -37,11 +37,10 @@
   }
 
   .mediamenu {
-    text-align: center;
+    padding: 3px;
   }
 
   .mediamenu li {
-    text-align: center;
     display: inline-block;
   }
   
