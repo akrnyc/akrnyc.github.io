@@ -40,6 +40,11 @@
     text-align: center;
     display: inline-block;
   }
+
+  .mediamenu li {
+    text-align: center;
+    display: inline-block;
+  }
   
   /* Side navigation links */
   .sidenav a {
