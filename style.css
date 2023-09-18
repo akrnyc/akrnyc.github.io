@@ -37,8 +37,8 @@
   }
 
   .mediamenu {
-    position: relative;
     text-align: center;
+    display: inline-block;
   }
   
   /* Side navigation links */
