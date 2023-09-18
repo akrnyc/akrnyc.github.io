@@ -35,6 +35,11 @@
     padding-top: 20px;
     font-family: Courier New, monospace;
   }
+
+  .mediamenu {
+    position: relative;
+    text-align: center;
+  }
   
   /* Side navigation links */
   .sidenav a {
