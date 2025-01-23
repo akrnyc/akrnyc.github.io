@@ -135,11 +135,17 @@
 
   /* Style Image Gallery */
   /* The grid: three equal columns that float next to each other */
+  .galleryrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
   .gallerycolumn {
-    float: left;
-    width: 33%;
-    height: 50px;
-    padding: 10px;
+    flex: 1 0 30%;
+    max-width: 300px;
+    margin: 5px;
+    box-sizing: border-box;
   }
   
   /* Style the images inside the grid */
