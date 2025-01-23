@@ -139,16 +139,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, lfr));
     grid-gap: 10px;
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; */
   }
 
   .gallerycolumn {
-    /* flex: 1 0 30%;
-    max-width: 300px;
-    margin: 5px;
-    box-sizing: border-box; */
   }
   
   /* Style the images inside the grid */
