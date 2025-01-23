@@ -24,6 +24,24 @@
             <a href="https://doi.org/10.48550/arXiv.2104.02238" target="_blank">DOI: 10.48550/arXiv.2104.02238</a>
             </p>
             </div>
-        </div>          
+        </div>
+        
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+    
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+                } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+            });
+            }
+            </script>
+    
     </body>
 </html>
