@@ -137,7 +137,7 @@
   /* The grid: three equal columns that float next to each other */
   .galleryrow {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, lfr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, lfr));
     grid-gap: 10px;
   }
 
