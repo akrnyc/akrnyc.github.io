@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKR NYC</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-nyc">
+    <div class="nav-bar">
+        <a href="index.html" class="nav-back">← Back</a>
+        <div class="nav-title heading-font">AKR NYC</div>
+        <div></div>
+    </div>
+    
+    <div class="content-container">
+        <div class="nyc-layout">
+            <div class="sidebar">
+                <div class="collections-header heading-font">Collections</div>
+                <select class="collections-dropdown" id="collectionsDropdown">
+                    <option value="fw26">FW26</option>
+                    <option value="ss27">SS27</option>
+                    <option value="fw27">FW27</option>
+                </select>
+                <div class="thumbnail-grid" id="thumbnailGrid">
+                    <div class="thumbnail active" data-title="Look 1" data-id="1"></div>
+                    <div class="thumbnail" data-title="Look 2" data-id="2"></div>
+                    <div class="thumbnail" data-title="Look 3" data-id="3"></div>
+                    <div class="thumbnail" data-title="Look 4" data-id="4"></div>
+                    <div class="thumbnail" data-title="Look 5" data-id="5"></div>
+                </div>
+            </div>
+            <div class="main-display">
+                <div class="main-image" id="mainImage">Selected Image Display</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
