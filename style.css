@@ -599,6 +599,7 @@ body.homepage {
 
   .hero-subtitle {
       font-size: clamp(1rem, 3vw, 1.5rem);
+      opacity: 50%;
   }
 
   .section-title {
