@@ -156,12 +156,12 @@ body.homepage {
 
 /* First button (AKR NYC) - starts right */
 .nav-button:nth-child(1) {
-  text-align: right;
+  text-align: left;
 }
 
 /* Second button (AKR LAB) - starts left */
 .nav-button:nth-child(2) {
-  text-align: left;
+  text-align: right;
 }
 
 .nav-button::before {
