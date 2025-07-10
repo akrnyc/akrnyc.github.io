@@ -137,7 +137,7 @@ body.homepage {
 
 .nav-button {
   width: 90%;
-  max-width: 90vw;
+  /* max-width: 90vw; */
   padding: 2rem;
   background: rgba(9, 60, 61, 0.3);
   border: 0px solid var(--teal);
