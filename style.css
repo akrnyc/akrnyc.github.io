@@ -142,18 +142,26 @@ body.homepage {
 
 .nav-button {
   width: 90vw;
-  /* max-width: 90vw; */
   padding: 2rem;
   background: rgba(9, 60, 61, 0.3);
   border: 0px solid var(--teal);
   border-radius: 20px;
-  text-align: center;
   text-decoration: none;
   color: var(--white);
   transition: all 0.4s ease;
   backdrop-filter: blur(5px);
   position: relative;
   overflow: hidden;
+}
+
+/* First button (AKR NYC) - starts right */
+.nav-button:nth-child(1) {
+  text-align: right;
+}
+
+/* Second button (AKR LAB) - starts left */
+.nav-button:nth-child(2) {
+  text-align: left;
 }
 
 .nav-button::before {
@@ -175,12 +183,14 @@ body.homepage {
   transform: translateY(-5px);
   border-color: var(--pink);
   box-shadow: 0 10px 30px rgba(253, 56, 102, 0.3);
+  text-align: center; /* Both buttons go to center on hover */
 }
 
 .nav-button-title {
-  font-size: 10rem;
+  font-size: 6rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  transition: all 0.4s ease;
 }
 
 .nav-button-subtitle {
