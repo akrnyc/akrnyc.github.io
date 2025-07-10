@@ -155,16 +155,16 @@ body.homepage {
 }
 
 /* First button (AKR NYC) - starts right */
-.nav-button:nth-child(1) {
+/* .nav-button:nth-child(1) {
   text-align: left;
-}
+} */
 
 /* Second button (AKR LAB) - starts left */
-.nav-button:nth-child(2) {
+/* .nav-button:nth-child(2) {
   text-align: right;
-}
+} */
 
-.nav-button::before {
+/* .nav-button::before {
   content: '';
   position: absolute;
   top: 0;
@@ -183,14 +183,52 @@ body.homepage {
   transform: translateY(-5px);
   border-color: var(--pink);
   box-shadow: 0 10px 30px rgba(253, 56, 102, 0.3);
-  text-align: center; /* Both buttons go to center on hover */
-}
+  text-align: center; Both buttons go to center on hover */
+/* } */
+
+/* .nav-button-title {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  transition: all 0.4s ease;
+} */
 
 .nav-button-title {
   font-size: 6rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  transition: all 0.4s ease;
+  transition: all 1.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: translateX(0);
+}
+
+/* First button (AKR NYC) - starts right */
+.nav-button:nth-child(1) {
+  text-align: right;
+}
+
+.nav-button:nth-child(1) .nav-button-title {
+  transform: translateX(10%); /* Extra push right */
+}
+
+/* Second button (AKR LAB) - starts left */
+.nav-button:nth-child(2) {
+  text-align: left;
+}
+
+.nav-button:nth-child(2) .nav-button-title {
+  transform: translateX(-10%); /* Extra push left */
+}
+
+.nav-button:hover {
+  text-align: center;
+  transform: translateY(-5px);
+  border-color: var(--pink);
+  box-shadow: 0 10px 30px rgba(253, 56, 102, 0.3);
+  transition: all 1.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.nav-button:hover .nav-button-title {
+  transform: translateX(0); /* Return to center */
 }
 
 .nav-button-subtitle {
