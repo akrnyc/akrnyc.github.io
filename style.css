@@ -89,7 +89,7 @@ body.homepage {
 .nav-back {
   color: var(--white);
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 0.6rem;
   transition: color 0.3s ease;
 }
 
@@ -109,7 +109,7 @@ body.homepage {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 2rem;
+  /* padding: 2rem; */
   position: relative;
 }
 
