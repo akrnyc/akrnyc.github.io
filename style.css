@@ -178,9 +178,14 @@ body.homepage {
 }
 
 .nav-button-title {
-  font-size: 10rem;
+  font-size: clamp(3rem, 8vw, 10rem); /* Responsive font size */
   font-weight: bold;
   margin-bottom: 0.5rem;
+  transition: all 1.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: translateX(0);
+  word-wrap: break-word; /* Allow text to wrap if needed */
+  overflow-wrap: break-word; /* Better browser support */
+  hyphens: auto; /* Add hyphens for better text breaking */
 }
 
 .nav-button-subtitle {
@@ -577,8 +582,21 @@ body.homepage {
   }
 
   .nav-button {
-      width: 100%;
-      max-width: 350px;
+      width: 95vw; /* Slightly wider on mobile */
+      max-width: none; /* Remove max-width constraint */
+      padding: 1.5rem 1rem; /* Reduce padding */
+      margin: 0 auto; /* Center the buttons */
+  }
+
+  .nav-button-title {
+      font-size: clamp(2.5rem, 12vw, 4rem); /* Smaller range for mobile */
+      line-height: 1.1; /* Tighter line height */
+      margin-bottom: 0.3rem;
+  }
+
+  .nav-button-subtitle {
+      font-size: 0.9rem; /* Slightly smaller subtitle */
+      padding: 0 0.5rem; /* Add padding to prevent edge cutoff */
   }
 
   .tech-grid {
@@ -609,19 +627,40 @@ body.homepage {
   .contact-form {
       padding: 2rem;
   }
+
+  /* Additional mobile-specific styles */
+  .homepage-container {
+      padding: 1rem; /* Add some padding to the container */
+  }
+
+  .main-title {
+      font-size: clamp(3rem, 15vw, 6rem); /* Adjust main title size */
+      margin-bottom: 2rem;
+  }
+
+  .nav-buttons {
+      gap: 1.5rem; /* Reduce gap between buttons */
+      width: 100%;
+      padding: 0 1rem; /* Add padding to prevent edge cutoff */
+  }
 }
 
-/* Page-specific body classes */
-.page-nyc, .page-lab {
-  background: var(--black);
-}
+/* Add a more specific mobile breakpoint for very small screens */
+@media (max-width: 480px) {
+  .nav-button {
+      width: 90vw;
+      padding: 1rem 0.5rem;
+  }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
+  .nav-button-title {
+      font-size: clamp(2rem, 10vw, 3rem); /* Even smaller for very small screens */
+  }
 
-/* Loading state */
-body.loaded {
-  opacity: 1;
+  .nav-button-subtitle {
+      font-size: 0.8rem;
+  }
+
+  .main-title {
+      font-size: clamp(2.5rem, 12vw, 4rem);
+  }
 }
