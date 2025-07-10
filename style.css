@@ -148,23 +148,14 @@ body.homepage {
   border-radius: 20px;
   text-decoration: none;
   color: var(--white);
-  transition: all 0.4s ease;
+  transition: all 1.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   backdrop-filter: blur(5px);
   position: relative;
   overflow: hidden;
 }
 
-/* First button (AKR NYC) - starts right */
-/* .nav-button:nth-child(1) {
-  text-align: left;
-} */
-
-/* Second button (AKR LAB) - starts left */
-/* .nav-button:nth-child(2) {
-  text-align: right;
-} */
-
-/* .nav-button::before {
+/* Gradient effect */
+.nav-button::before {
   content: '';
   position: absolute;
   top: 0;
@@ -179,31 +170,9 @@ body.homepage {
   left: 100%;
 }
 
-.nav-button:hover {
-  transform: translateY(-5px);
-  border-color: var(--pink);
-  box-shadow: 0 10px 30px rgba(253, 56, 102, 0.3);
-  text-align: center; Both buttons go to center on hover */
-/* } */
-
-/* .nav-button-title {
-  font-size: 6rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  transition: all 0.4s ease;
-} */
-
-.nav-button-title {
-  font-size: 6rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  transition: all 1.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transform: translateX(0);
-}
-
 /* First button (AKR NYC) - starts right */
 .nav-button:nth-child(1) {
-  text-align: left;
+  text-align: right;
 }
 
 .nav-button:nth-child(1) .nav-button-title {
@@ -212,7 +181,7 @@ body.homepage {
 
 /* Second button (AKR LAB) - starts left */
 .nav-button:nth-child(2) {
-  text-align: right;
+  text-align: left;
 }
 
 .nav-button:nth-child(2) .nav-button-title {
@@ -229,6 +198,14 @@ body.homepage {
 
 .nav-button:hover .nav-button-title {
   transform: translateX(0); /* Return to center */
+}
+
+.nav-button-title {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  transition: all 1.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: translateX(0);
 }
 
 .nav-button-subtitle {
