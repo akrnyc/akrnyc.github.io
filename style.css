@@ -481,7 +481,7 @@ body.homepage {
 
 .contact-section {
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, var(--teal) 0%, var(--black) 100%);
+  background: linear-gradient(225deg, var(--teal) 0%, var(--black) 100%);
 }
 
 .contact-form {
