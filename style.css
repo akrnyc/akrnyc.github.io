@@ -65,7 +65,11 @@ body.homepage {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: radial-gradient(circle at 50% 50%, var(--teal) 0%, var(--black) 50%);
+  background: radial-gradient(circle at 30% 20%, var(--teal) 0%, transparent 50%),
+              radial-gradient(circle at 70% 80%, var(--pink) 0%, transparent 50%),
+              radial-gradient(circle at 80% 30%, var(--orange) 0%, transparent 50%),
+              radial-gradient(circle at 20% 70%, var(--teal) 0%, transparent 40%),
+              var(--black);
   transition: background 0.3s ease;
 }
 
