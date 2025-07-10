@@ -46,7 +46,7 @@ body.homepage {
 
 /* Typography */
 .title-font {
-  font-family: 'Monaco', 'Georgia', monospace;
+  font-family: 'Monaco', sans-serif, monospace;
 }
 
 .heading-font {
