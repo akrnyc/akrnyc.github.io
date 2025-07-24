@@ -170,7 +170,7 @@ body {
 }
 
 .hero-content h1 {
-    font-family: 'Michroma', sans-serif;
+    font-family: 'Syncopate', sans-serif;
     font-size: clamp(6rem, 20vw, 12rem);
     font-weight: 900;
     letter-spacing: 8px;
