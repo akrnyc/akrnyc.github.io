@@ -251,9 +251,9 @@ body {
 }
 
 .section h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gruppo', sans-serif;
     font-size: clamp(2.5rem, 5vw, 4rem);
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 3rem;
     color: var(--ivory);
