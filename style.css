@@ -17,7 +17,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: var(--dark-bg);
     color: var(--ivory);
     overflow-x: hidden;
@@ -170,8 +170,8 @@ body {
 }
 
 .hero-content h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: clamp(6rem, 20vw, 16rem);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(6rem, 20vw, 12rem);
     font-weight: 900;
     letter-spacing: 8px;
     margin-bottom: 2rem;
