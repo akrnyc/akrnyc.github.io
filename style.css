@@ -170,9 +170,9 @@ body {
 }
 
 .hero-content h1 {
-    font-family: 'Syncopate', sans-serif;
+    font-family: 'Gruppo', sans-serif;
     font-size: clamp(6rem, 20vw, 12rem);
-    font-weight: 900;
+    font-weight: 600;
     letter-spacing: 8px;
     margin-bottom: 2rem;
     background: linear-gradient(45deg, var(--white), var(--rose-gold), var(--white));
