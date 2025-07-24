@@ -3,26 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>a k r</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>A K R  L A B</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="homepage">
-    <div class="animated-bg" id="animatedBg"></div>
-    
-    <div class="homepage-container">
-        <div class="nav-buttons">
-            <a href="" class="nav-button">
-                <div class="nav-button-title title-font">AKR NYC</div>
-                <div class="nav-button-subtitle">Iconic Lifestyle Brand (Coming Soon)</div>
-            </a>
-            <a href="lab.html" class="nav-button">
-                <div class="nav-button-title title-font">AKR LAB</div>
-                <div class="nav-button-subtitle">Innovation, Strategy, Technology</div>
-            </a>
+<body>
+    <div class="animated-bg"></div>
+    <div class="particles" id="particles"></div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>AKR LAB</h1>
+                <h2>Tastemaker + Technologist</h2>
+                <p>Award Winning Biochemist • Published Scientist • Patent-Pending Inventor</p>
+                <a href="#about" class="glow-button">Explore My Work</a>
+            </div>
         </div>
-        <div class="copyright accent-font">© AKR NYC, AKR LAB. All Rights Reserved.</div>
-    </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Expertise</h2>
+            <div class="glass-card">
+                <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem;">
+                    At the intersection of science and luxury, I architect the future of premium technology experiences.
+                </p>
+                <div class="expertise-grid">
+                    <div class="expertise-item">
+                        <h3>Artificial Intelligence</h3>
+                        <p>Developing cutting-edge AI solutions that bridge the gap between complex algorithms and luxury user experiences.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3>Business Intelligence</h3>
+                        <p>Transforming data into strategic insights that drive premium brand decisions and market innovations.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3>Systems Engineering</h3>
+                        <p>Building robust, scalable architectures that power the next generation of luxury technology platforms.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3>Design Thinking</h3>
+                        <p>Crafting user-centered solutions that merge aesthetic sophistication with functional excellence.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3>Luxury Markets</h3>
+                        <p>Deep understanding of premium consumer behavior and the unique dynamics of high-end market segments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="incubations" class="section">
+        <div class="container">
+            <h2>Current Incubations</h2>
+            <div class="glass-card">
+                <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem;">
+                    Pioneering the convergence of luxury and technology through innovative ventures.
+                </p>
+                <div class="incubation-item">
+                    <h3>AKR NYC</h3>
+                    <p>A luxury lifestyle brand that redefines premium experiences through the lens of scientific innovation and technological sophistication.</p>
+                </div>
+                <div class="incubation-item">
+                    <h3>Stealth Platforms</h3>
+                    <p>Two groundbreaking platforms currently in development, each designed to revolutionize how luxury consumers interact with technology. Details currently not available to investors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="consulting" class="section">
+        <div class="container">
+            <h2>Consulting Services</h2>
+            <div class="glass-card">
+                <h3 style="color: var(--rose-gold); font-size: 2rem; text-align: center; margin-bottom: 2rem;">
+                    Fractional Chief AI Officer
+                </h3>
+                <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem;">
+                    Bringing C-level AI leadership to forward-thinking organizations ready to embrace the future.
+                </p>
+                <div class="expertise-grid">
+                    <div class="expertise-item">
+                        <h3>Strategy Development</h3>
+                        <p>Crafting comprehensive AI strategies that align with your business objectives and market positioning.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3>Research & Development</h3>
+                        <p>Leading innovative R&D initiatives that push the boundaries of what's possible in your industry.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3>0-1 Product Development</h3>
+                        <p>Taking concepts from ideation to market-ready products with precision and vision.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h3>Data Systems Architecture</h3>
+                        <p>Designing and implementing robust data infrastructures that scale with your ambitions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <h3 style="color: var(--emerald); text-align: center; margin-bottom: 2rem; font-size: 2rem;">
+                    Let's Build the Future Together
+                </h3>
+                <form action="https://formspree.io/f/xjkrnrgr" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell me about your project, vision, or how we might collaborate..." required></textarea>
+                    </div>
+                    <div style="text-align: center;">
+                        <button type="submit" class="submit-btn">Inquire Within</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Connect on <a href="https://www.linkedin.com/in/alexandrearamnarine/" target="_blank" class="linkedin-link">LinkedIn</a></p>
+            <p style="margin-top: 1rem; opacity: 0.7;">© 2025 AKR LAB. Defining the future of Luxury Technology.</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
