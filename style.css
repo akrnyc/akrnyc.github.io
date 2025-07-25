@@ -310,8 +310,9 @@ body {
 .incubation-item h3 {
     color: var(--emerald);
     margin-bottom: 1rem;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .form-container {
